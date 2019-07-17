@@ -1,0 +1,427 @@
+/* CSS Document */
+
+/* CSS Document */
+.wts-clp-login {
+    text-align: center;
+}
+
+span.input-group-addon.second input[type="submit"]:focus {
+    display: none;
+}
+.site_logo img {
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+a.site_logo:focus {
+    outline: none;
+} 
+ .site_logo img:focus {
+    outline: none;
+}
+ 
+ .input-group-addon img {
+    width: auto;
+    height: 20px;
+}
+.pasimg img {
+    width: auto;
+    height: 17px;
+}
+.col-sm-12.main {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.main_box {
+    margin-top: 0px;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+img.img-responsive {
+    width: 43%;
+    margin: 0 0 0 120px;
+    padding: 0 0 40px 0;
+}
+.settings-preview-login-screen {
+    padding: 25px 40px;
+    background-color: rgba(0,0,0,0.3);
+    margin: 40px 0px;
+}
+input.form-control {
+    height: 44px;
+    margin: 0;
+    padding: 0;
+}
+.input-group.margin-bottom-sm {
+    margin: 0;
+    padding: 0 0 12px 0;
+    width: 100%;
+    margin: 0 auto;
+}
+.bg .wts-clp-login-form .paswrd_g {
+    width: 100%;
+    margin: 0 auto;
+}
+
+i.fa.fa-user {
+    margin: 0;
+    padding: 0 4px;
+}
+.forgot {
+    color: #fff;
+    list-style: none;
+    text-align: -webkit-right;
+   /* margin: 21px 0 0 0;*/
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 600;
+	padding-right: 0px;
+    text-align: right;
+}
+input.form-control {
+    padding: 0 0 0 15px;
+    margin: 0;
+}
+span.input-group-addon.second input[type="submit"] {
+    position: absolute;
+    background-color: transparent;
+    float: left;
+    margin-left: -17px;
+	border: 0px;
+}
+span.input-group-addon.second input[type="submit"]:hover {
+	background: transparent;
+}
+.input-group.wts-clp-captcha-container {
+    top: 9px;
+    margin: 2px auto;
+    width: 100%;
+}
+form.backdes {
+    /*background-color: #433141;*/
+    margin: 0;
+    padding: 15px;
+    border-top: 3px solid #f4f5d3;
+    opacity: 0.7;
+}
+
+
+.forget_rember {
+    display: block;
+    width: 100%%;
+    padding-left: 0px;
+    margin: 10px 0px;
+}
+.forget_pass a {
+    color: #fff;
+    letter-spacing: 0px;
+}
+.remember-user label {
+    padding-top: 8px;
+    letter-spacing: 1px;
+    padding-left: 0px;
+    display: inline;
+    color: #fff;
+    font-size: 13px;
+}
+.input-group-addon:first-child {
+    background: #0072A7;
+    border: none;
+    color: #fff;
+    border-radius: 0 0 0 25px !important;
+}
+.button:hover, button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"] {
+    border-radius: 0px 25px 0px 25px;
+}
+.input-group .form-control {
+    border-radius: 0px 25px 0px 0px !important;
+    border: 1px solid #0072A7;
+    border-left: none;
+}
+
+
+.submitbn input#wts_clp_login_submit {
+    font-size: 17px;
+    letter-spacing: 1px;
+    box-shadow: none;
+    text-shadow: none;
+    width: 303px;
+    height: 45px;
+    margin-top: 10px; 
+	padding: 0px;
+	background: #0072A7;
+	color:#fff;
+	border: none !important;
+	border-radius: 0px 25px 0px 25px;
+	width: 100%;
+}
+.submitbn input#wts_clp_login_submit:hover {
+	background: #0072A7;
+	color:#fff;	
+}
+.remeber_pas {
+    margin-left: 0;
+    float: left !important;
+}
+
+.input-group-addon.second {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+#wts_clp_login_form {
+    max-width: 400px;
+    margin: 0px auto;
+    width: 100%;
+}
+.input-group-addon.second.submitbn {
+    padding-left: 0;
+}
+input#wts_clp_login_remember {
+    position: relative;
+    top: 2px;
+    /* background: #fff; */
+    /* z-index: 9999999 !important; */
+}
+.remember-user input[type=checkbox] { display:none; } /* to hide the checkbox itself */
+.remember-user input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+.remember-user input[type=checkbox] + label:before { content: "\f096"; font-size:15px;} /* unchecked icon */
+.remember-user input[type=checkbox] + label:before { letter-spacing: 6px; } /* space between checkbox and label */
+
+.remember-user input[type=checkbox]:checked + label:before { content: "\f046";color :black} /* checked icon */
+.remember-user input[type=checkbox]:checked + label:before { letter-spacing: 6px; } /* allow space for check mark */
+
+
+
+ 
+
+@media screen and (max-width: 1024px) { 
+     .row.bg {
+    margin: 0;
+    padding: 25px 20px;
+    /* background: #293033c9; */
+}
+.col-sm-3.loginleft_colm {
+    width: 0% !important;
+	display:none !important;
+}
+.col-sm-3.loginright_colm {
+    width: 0% !important;
+	display:none !important;
+}
+.col-sm-6.main {
+    width: 100% !important;
+}
+#wts_clp_login_form {
+    max-width: 550px;
+    margin: 0px auto;
+    width: 100%;
+}
+ 
+li.forgot {
+    font-size: 16px;
+    text-align: center;
+}
+li.forgot a {
+   padding-left: 20px;
+}
+.input-group-addon {
+    padding: 20px 25px;
+    font-size: 30px;
+}
+.input-group .form-control {
+    height: 70px;
+    font-size: 24px;
+}
+.submitbn input#wts_clp_login_submit {
+    font-size: 24px;
+    height: 70px;
+    width: 100%;
+}
+.bg .wts-clp-login-form .paswrd_g {
+    padding: 10px 0px;
+}
+.site_logo img {
+    width: 250px;
+    padding-bottom: 20px;
+}
+.row.bg {
+    margin: 0;
+    padding: 25px 10px;
+    /* background: #293033c9; */
+}
+.main_box {
+    margin-top: 0px;
+}
+}
+
+@media screen and (max-width: 816px) { 
+.forget_rember {
+    width: 100%;
+    margin: 15px 0px 0 4px;
+}
+.input-group.margin-bottom-sm {
+    width: 100%;
+    margin: 0 auto;
+}
+.bg .wts-clp-login-form .paswrd_g {
+    width: 100%;
+    margin: 0 auto;
+}
+li.forgot {
+    width: 100%;
+}
+.forgot.forget_pass {
+    text-align: center;
+    display: inherit;
+}
+.col-sm-6.input-group.remeber_pas {
+    width: 50%;
+    float: left;
+}
+.col-sm-6.forgot.forget_pass {
+    width: 50%;
+    float: left;
+}
+
+ .row.bg {
+    margin: 0;
+    padding: 25px 20px;
+    /* background: #293033c9; */
+}
+.col-sm-3.loginleft_colm {
+    width: 0% !important;
+	display:none !important;
+}
+.col-sm-3.loginright_colm {
+    width: 0% !important;
+	display:none !important;
+}
+.col-sm-6.main {
+    width: 100% !important;
+}
+#wts_clp_login_form {
+    max-width: 550px;
+    margin: 0px auto;
+    width: 100%;
+}
+.main_box {
+    margin-top: 0px;
+} 
+li.forgot {
+    font-size: 16px;
+}
+li.forgot a {
+    padding-left: 0px;
+}
+.input-group-addon {
+    padding: 15px 25px;
+    font-size: 30px;
+}
+.input-group .form-control {
+    height: 62px;
+    font-size: 20px;
+}
+.submitbn input#wts_clp_login_submit {
+    font-size: 20px;
+    height: 60px;
+	width: 100%;
+}
+.bg .wts-clp-login-form .paswrd_g {
+    padding: 10px 0px;
+}
+.site_logo img {
+    width: 250px;
+    padding-bottom: 20px;
+}
+.row.bg {
+    margin: 0;
+    padding: 25px 10px;
+    /* background: #293033c9; */
+}
+
+}
+
+
+@media screen and (max-width: 580px) { 
+.col-sm-3.loginleft_colm {
+    width: 0% !important;
+	display:none !important;
+}
+.col-sm-3.loginright_colm {
+    width: 0% !important;
+	display:none !important;
+}
+.col-sm-6.main {
+    width: 100% !important;
+}
+#wts_clp_login_form {
+    max-width: 100%;
+    margin: 0px auto;
+    width: 100%;
+}
+.main_box {
+    margin-top: 0px;
+}
+li.forgot {
+    font-size: 16px;
+	text-align:center;
+}
+li.forgot a {
+    padding-left: 0px;
+}
+.input-group-addon {
+    padding: 17px 25px;
+    font-size: 30px;
+}
+.input-group .form-control {
+    height: 65px;
+    font-size: 18px;
+}
+.submitbn input#wts_clp_login_submit {
+    font-size: 22px;
+    height: 65px;
+    width: 100%;
+}
+.bg .wts-clp-login-form .paswrd_g {
+    padding: 10px 0px;
+}
+.site_logo img {
+    width: auto;
+    padding-bottom: 20px;
+    height: 90px;
+}
+.row.bg {
+    margin: 0;
+    padding: 25px 10px;
+    /* background: #293033c9; */
+}
+}
+
+
+@media screen and (max-width: 480px) { 
+.submitbn input#wts_clp_login_submit {
+    width: 100%;
+    display: block;
+}
+.col-sm-6.input-group.remeber_pas {
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+.col-sm-6.forgot.forget_pass {
+    width: 100%;
+    text-align: center;
+}
+}
+ 

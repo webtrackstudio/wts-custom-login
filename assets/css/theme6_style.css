@@ -1,0 +1,494 @@
+/* CSS Document */
+
+.wts-clp-login {
+    text-align: center;
+}
+.wts-clp-login-page_body {
+    background-size: cover !important;
+    background-position: center !important;
+}
+.themetheme6 span.input-group-addon {
+    display: none;
+}
+.col-sm-12.main {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.main_box {
+    margin-top: 0px;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    background-size: cover;
+    padding: 40px 30px 50px;
+    max-width: 400px;
+    width: 100% !important;
+    border-radius: 10px;
+    box-shadow: 0px 5px 50px 0px rgba(0, 0, 0, 0.5);
+    /* margin-top: 4%; */
+}
+body.wts-clp-login-page_body  .input-group .form-control:focus {
+    z-index: 3;
+    outline: none !important;
+    box-shadow: none !important;
+    color: #fff !important;
+	background: transparent !important;
+}
+#wts_clp_login_form {
+    max-width: 400px;
+    margin: 0px auto;width:100%;
+}
+span.input-group-addon.second input[type="submit"]:focus {
+    display: none;
+}
+.settings-preview-login-screen {
+    padding: 25px 40px;
+    background-color: rgba(0,0,0,0.1);
+    margin: 40px 0px;
+}
+.wts-clp-login-form .input-group-addon {
+    padding-left: 0px;
+}
+.wts-clp-login-form input.form-control {
+	color:#fff;
+	background: transparent;
+}
+.input-group.margin-bottom-sm {
+    margin: 0;
+    padding: 0 0 12px 0;
+   width: 100%;
+    margin: 0 auto;
+}
+.wts-clp-login-form .margin-bottom-sm input {
+    border-radius: 0;
+}
+.wts-clp-login-form .paswrd_g input {
+    border-radius: 0;
+}
+.wts-clp-login-form span.input-group-addon {
+    border-radius: 0;
+}
+.bg .wts-clp-login-form .paswrd_g {
+    width: 100%;
+    margin: 0 auto;
+}
+i.fa.fa-user {
+    margin: 0;
+    padding: 0 4px;
+}
+li.forgot {
+    color: #fff;
+    list-style: none;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 600;
+	padding-right: 0px;
+    text-align: right;
+}
+img.img-responsive {
+    width: 43%;
+    margin: 0 0 0 120px;
+    padding: 0 0 40px 0;
+}
+input.form-control {
+    height: 44px;
+    margin: 0;
+    padding: 0;	
+    background: no-repeat;
+    border: none;
+    border-bottom: 1px solid #fff;
+	-webkit-box-shadow:none; 
+}
+span.input-group-addon.second {
+    background: no-repeat;
+    border: none;
+    border-bottom: 1px solid;
+}
+span.input-group-addon {
+    background: no-repeat;
+    border: none;
+    border-bottom: 1px solid;
+}
+span.input-group-addon.second input[type="submit"] {
+    position: absolute;
+    background-color: transparent;
+    float: left;
+    margin-left: -17px;
+	border: 0px;
+}
+span.input-group-addon.second input[type="submit"]:hover {
+	background: transparent;
+}
+span.input-group-addon.second input[type="submit"]:focus {   
+    background-color: transparent;
+}
+.input-group.wts-clp-captcha-container {
+    margin-top: 12px;
+}
+i.fa.fa-user {
+    color: #fff;
+    font-size: 22px;
+}
+i.fa.fa-key.fa-fw{
+    color: #fff; 
+    font-size: 22px;
+}
+i.fa.fa-sign-in{
+    color: #fff;
+    font-size: 22px;
+}	
+
+.forget_rember {
+    display: block;
+    width: 100%;
+    padding-left: 0px;
+    margin: 10px 0px;
+}
+.forget_pass a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 0px;
+}
+.remember-user label {
+    padding-top: 8px;
+    letter-spacing: 1px;
+    padding-left: 0px;
+    display: inline;
+    color: #fff;
+    font-size: 13px;
+}
+.forgot a {
+    color: #fff;
+    font-weight: bold;
+}
+.submitbn input#wts_clp_login_submit {
+    font-size: 17px;
+	font-weight:700;
+    letter-spacing: 1px;
+    box-shadow: none;
+    text-shadow: none;
+    width: 303px;
+    height: 40px;
+    margin-top: 10px;
+    background: none;
+    border: 1px solid #fff;
+	padding: 0px;
+	color:#fff;
+	width: 100%;
+}
+.forget_pass {
+    padding-right: 0px;
+   padding-left: 0;
+}
+.remeber_pas {
+    margin-left: 0px;
+    float: left !important;
+}
+
+.input-group-addon.second {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+.themetheme2 .backdes .input-group {
+    width: 100%;
+}
+input#wts_clp_login_remember {
+    position: relative;
+    top: 2px;
+    /* background: #fff; */
+    /* z-index: 9999999 !important; */
+}
+.remember-user input[type=checkbox] { display:none; } /* to hide the checkbox itself */
+.remember-user input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+.remember-user input[type=checkbox] + label:before { content: "\f096"; font-size:15px;} /* unchecked icon */
+.remember-user input[type=checkbox] + label:before { letter-spacing: 6px; } /* space between checkbox and label */
+
+.remember-user input[type=checkbox]:checked + label:before { content: "\f046";color :black} /* checked icon */
+.remember-user input[type=checkbox]:checked + label:before { letter-spacing: 6px; } /* allow space for check mark */
+
+/*-----floating label css starts here ---------*/
+.wts-clp-float-container {
+  position: relative;
+  margin-bottom: 1.5rem!important;
+}
+
+.wts-clp-float-container .float-container-lbl {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 7px 0 0 0px;
+  transition: all 200ms;
+  opacity: 0.5;
+  font-size: 17px;
+  color: #757575;
+}
+
+.float-container-input:focus + .float-container-lbl,
+.float-container-input:valid + .float-container-lbl {
+  font-size: 75%;
+  transform: translate3d(0, -100%, 0);
+  opacity: 1;
+}
+
+.site_logo img {
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+a.site_logo:focus {
+    outline: none;
+}
+ 
+ .site_logo img:focus {
+    outline: none;
+}
+
+.main_box {
+    margin-top: 0px;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+
+.input-group-addon img {
+    width: auto;
+    height: 20px;
+}
+.pasimg img {
+    width: auto;
+    height: 17px;
+}
+
+/*-----floating label css ends here ---------*/
+ 
+@media screen and (max-width: 1024px) { 
+     .row.bg {
+    margin: 0;
+    padding: 25px 20px;
+    /* background: #293033c9; */
+}
+.col-sm-3.loginleft_colm {
+    width: 0% !important;
+	display:none !important;
+}
+.col-sm-3.loginright_colm {
+    width: 0% !important;
+	display:none !important;
+}
+.col-sm-6.main {
+    width: 100% !important;
+}
+#wts_clp_login_form {
+    max-width: 550px;
+    margin: 0px auto;
+    width: 100%;
+	color: #fff;
+}
+ 
+li.forgot {
+    font-size: 18px;
+    text-align: center;
+}
+li.forgot a {
+   padding-left: 0px;
+}
+.input-group-addon {
+    padding: 22px 25px;
+    font-size: 30px;
+}
+.input-group .form-control {
+    height: 70px;
+    font-size: 24px;
+}
+.submitbn input#wts_clp_login_submit {
+    font-size: 24px;
+    height: 70px;
+    width: 100%;
+}
+.bg .wts-clp-login-form .paswrd_g {
+    padding: 10px 0px;
+}
+.site_logo img {
+    width: 250px;
+    padding-bottom: 20px;
+}
+.row.bg {
+    margin: 0;
+    padding: 25px 10px;
+    /* background: #293033c9; */
+}
+.main_box {
+    margin-top: 15vh;
+}
+}
+
+@media screen and (max-width: 816px) { 
+ .row.bg {
+    margin: 0;
+    padding: 25px 20px;
+    /* background: #293033c9; */
+}
+.col-sm-3.loginleft_colm {
+    width: 0% !important;
+	display:none !important;
+}
+.col-sm-3.loginright_colm {
+    width: 0% !important;
+	display:none !important;
+}
+.col-sm-6.main {
+    width: 100% !important;
+}
+#wts_clp_login_form {
+    max-width: 550px;
+    margin: 0px auto;
+    width: 100%;
+}
+.main_box {
+    margin-top: 5vh;
+} 
+li.forgot {
+    font-size: 16px;
+}
+li.forgot a {
+    padding-left: 0px;
+}
+.input-group-addon {
+    padding: 20px 25px;
+    font-size: 30px;
+}
+.input-group .form-control {
+    height: 62px;
+    font-size: 20px;
+}
+.submitbn input#wts_clp_login_submit {
+    font-size: 20px;
+    height: 60px;
+	width: 100%;
+}
+.bg .wts-clp-login-form .paswrd_g {
+    padding: 10px 0px;
+}
+.site_logo img {
+    width: 250px;
+    padding-bottom: 20px;
+}
+.row.bg {
+    margin: 0;
+    padding: 25px 10px;
+}
+
+.forget_rember {
+    width: 100%;
+    margin: 15px 0px 0 4px;
+}
+.input-group.margin-bottom-sm {
+    width: 100%;
+    margin: 0 auto;
+}
+.bg .wts-clp-login-form .paswrd_g {
+    width: 100%;
+    margin: 0 auto;
+}
+li.forgot {
+    width: 100%;
+}
+.forgot.forget_pass {
+    text-align: center;
+    display: inherit;
+}
+}
+@media screen and (max-width: 740px) { 
+.col-sm-6.forgot.forget_pass {
+    width: 50%;
+    float: left;
+}
+.col-sm-6.input-group.remeber_pas {
+    width: 50%;
+    float: left;
+}
+}
+@media screen and (max-width: 580px) { 
+.col-sm-3.loginleft_colm {
+    width: 0% !important;
+	display:none !important;
+}
+.col-sm-3.loginright_colm {
+    width: 0% !important;
+	display:none !important;
+}
+.col-sm-6.main {
+    width: 100% !important;
+}
+#wts_clp_login_form {
+    max-width: 100%;
+    margin: 0px auto;
+    width: 100%;
+}
+li.forgot {
+    font-size: 16px;
+	text-align:center;
+	line-height: 30px;
+}
+li.forgot a {
+    padding-left: 0px;
+}
+.input-group-addon {
+    padding: 20px 25px;
+    font-size: 30px;
+}
+.input-group .form-control {
+    height: 65px;
+    font-size: 18px;
+}
+.submitbn input#wts_clp_login_submit {
+    font-size: 22px;
+    height: 65px;
+    width: 100%;
+}
+.bg .wts-clp-login-form .paswrd_g {
+    padding: 10px 0px;
+}
+.site_logo img {
+    width: auto;
+    padding-bottom: 20px;
+    height: 90px;
+}
+.row.bg {
+    margin: 0;
+    padding: 25px 10px;
+    /* background: #293033c9; */
+}
+}
+
+
+@media screen and (max-width: 480px) { 
+.submitbn input#wts_clp_login_submit {
+    width: 100%;
+    display: block;
+}
+.col-sm-6.input-group.remeber_pas {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.col-sm-6.forgot.forget_pass {
+    width: 100%;
+    text-align: center;
+}
+}

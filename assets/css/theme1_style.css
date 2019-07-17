@@ -1,0 +1,265 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+.col-sm-12.main {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.wts-clp-login {
+    text-align: center;
+}
+.wts-clp-login-page_body  {
+    background-size: cover !important;
+    background-position: center !important;
+}
+.main_box {
+    margin-top: 0px;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+span.input-group-addon.second input[type="submit"]:focus {
+    display: none;
+}
+
+.col-sm-6.main {
+    margin: 0;
+    padding: 0;
+}
+.forgot_themeopt a {
+    color: #fff;
+    font-weight: bold;
+}
+.settings-preview-login-screen  {
+    margin: 0;
+    padding: 25px 40px;
+    background-color: rgba(0,0,0,0.3);
+    margin: 40px 0px;
+}
+.forget_pass a {
+    text-decoration: none;
+    color: #fff;
+    /* letter-spacing: 0px; */
+    /* text-align: -webkit-center; */
+    /* text-align: right; */
+    font-weight: bold;
+    font-size: 13px;
+    display: inline-block;
+    padding-top: 4px;
+}
+.wts-clp-container {
+	width:100%;
+}
+input.form-control {
+    height: 44px;
+    margin: 0;
+    padding: 0;
+}
+.input-group.margin-bottom-sm {
+    margin: 0;
+    padding: 0 0 12px 0;
+    width: 100%;
+    margin: 0 auto;
+}
+.wts-clp-login-form input {
+	color:#fff;
+}
+.wts-clp-login-form .margin-bottom-sm input {
+    border-radius: 0;
+	background: #f2f2f2;font-family: inherit;color:#333;
+}
+.wts-clp-login-form .paswrd_g input {
+    border-radius: 0;
+	background: transparent;background: #f2f2f2;font-family: inherit;color:#333;
+}
+.wts-clp-login-form span.input-group-addon {
+    border-radius: 0;
+}
+.bg .wts-clp-login-form .paswrd_g {
+    width: 100%;
+    margin: 0 auto;
+}
+i.fa.fa-user {
+    margin: 0;
+    padding: 0 4px;
+}
+li.forgot {
+    color: #fff;
+    list-style: none;
+    text-align: -webkit-right;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 600;
+	text-align: center;
+}
+span.input-group-addon.second {
+    background-color: #64c751 !important;
+    margin: 0;
+    padding: 0 9px;
+    font-size: 28px;
+}
+input.form-control {
+    margin: 0 0 0 0;
+    padding: 0 0 0 10px;
+}
+
+span.input-group-addon.second input[type="submit"] {
+    position: absolute;
+    background-color: transparent;
+    float: left;
+    margin-left: -17px;
+	border: 0px;
+}
+span.input-group-addon.second input[type="submit"]:hover {
+	background: transparent;
+}
+
+.input-group.wts-clp-captcha-container {
+    top: 9px;
+    margin: 3px auto;
+    width: 100%;
+}
+
+.remember-user {
+    color: #fff;
+}
+
+
+.wts-clp-login h1 a img {
+    width: 200px;
+    height:auto;
+}
+.forget_rember {
+    display: block; 
+    width: 100%;
+    margin: 10px 0px;
+}
+
+input[type=checkbox] { display:none; } /* to hide the checkbox itself */
+input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+input[type=checkbox] + label:before { content: "\f096"; font-size:15px;} /* unchecked icon */
+input[type=checkbox] + label:before { letter-spacing: 6px; } /* space between checkbox and label */
+
+input[type=checkbox]:checked + label:before { content: "\f046";color :black} /* checked icon */
+input[type=checkbox]:checked + label:before { letter-spacing: 6px; } /* allow space for check mark */
+.remember-user label {
+    padding-top: 8px;
+    letter-spacing: 1px;
+    padding-left: 0px;
+    display: inline;
+   color: #fff;
+    font-size: 13px;
+}
+
+input#wts_clp_login_password:focus {
+    outline: none !important;
+}
+
+
+.forgot {
+    padding-right: 0px;
+}
+.submitbn input#wts_clp_login_submit {
+    font-size: 14px;
+    letter-spacing: 3px;
+    box-shadow: none;
+    text-shadow: none;
+       width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    background: transparent;
+    border: 1px solid #ddd;
+    color: #fff;
+    padding: 0px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.forgot {
+    padding-right: 0px;
+    text-align: right;
+}
+input#wts_clp_login_remember {
+    position: relative;
+    top: 2px;
+    /* background: #fff; */
+    /* z-index: 9999999 !important; */
+}
+.col-sm-6.remeber_pas {
+    padding-left: 0px;
+}
+.input-group-addon.second {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+#wts_clp_login_form {
+    max-width: 400px;
+    margin: 0px auto;
+    width: 100%;
+}
+.input-group-addon.second.submitbn {
+    padding-left: 0;
+}
+
+.site_logo img {
+    width: 200px;
+	margin:0 auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+a.site_logo:focus {
+    outline: none;
+}
+ 
+ .site_logo img:focus {
+    outline: none;
+}
+
+
+
+.input-group-addon img {
+    width: auto;
+    height: 20px;
+}
+.pasimg img {
+    width: auto;
+    height: 17px;
+}
+@media screen and (max-width:767px) {
+	.row.bg { margin-bottom: 0px;  }
+}
+
+@media screen and (max-width:740px) {
+.col-sm-6.remeber_pas {
+    width: 50%;
+    float: left;
+}
+.col-sm-6.forgot.forget_pass {
+    width: 50%;
+    float: left;
+}
+}
+
+@media screen and (max-width:500px) {
+.col-sm-6.remeber_pas {
+    width: 100%;
+    text-align: center;
+}
+.col-sm-6.forgot.forget_pass {
+    width: 100%;
+    text-align: center;
+}
+}

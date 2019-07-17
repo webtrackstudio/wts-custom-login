@@ -1,0 +1,51 @@
+/* CSS Document theme3 */
+
+.col-sm-6.main {
+   /* background-image:url(water-lily-nuphar-lutea-aquatic-plant-blossom-158551.jpeg); */
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    object-fit: cover;
+}
+img.img-responsive {
+    width: 43%;
+    margin: 0 auto;
+    padding: 0 0 20px 0;
+}
+.row.bg {
+    margin: 0;
+    padding: 48px 33px;
+}
+input.form-control {
+    height: 44px;
+    margin: 0;
+    padding: 0;
+}
+.input-group.margin-bottom-sm {
+    margin: 0;
+    padding: 0 0 12px 0;
+}
+i.fa.fa-user {
+    margin: 0;
+    padding: 0 4px;
+}
+li.forgot {
+    color: #fff;
+    list-style: none;
+    text-align: -webkit-right;
+    margin: 21px 0 0 0;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+input.form-control {
+    padding: 0 0 0 15px;
+    margin: 0;
+}
+form.backdes {
+    /*background-color: #433141;*/
+    margin: 0;
+    padding: 40px;
+    border-top: 3px solid #f4f5d3;
+    opacity: 0.7;
+}

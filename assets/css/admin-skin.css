@@ -1,0 +1,191 @@
+/*Form Design*/
+.themetheme2 span.input-group-addon {
+    display: none;
+}
+.themetheme3 label {
+    margin-bottom: -5px;
+    margin-left: 5px;
+} 
+h1.wtscustom_plgtitle {
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+form#wts_clp_loginpageSettings_form {
+    background: #f0f0f8;
+    padding: 30px;
+}
+.boxpreview {
+    float: left;
+    width: 100%;
+}
+.forgot_themeopt a {
+    text-align: right;
+    display: block;
+    padding-top: 10px;
+    text-decoration: none;
+	color: #fff;
+}
+div#setting-error-settings_updated {
+    border: 1px solid rgba(226,137,169,1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+img.img-responsive {
+    width: 100% !important;
+    margin: 0px auto !important;
+    padding: 0px !important;
+    max-width: 60% !important;    margin-bottom: 20px !important;    
+}
+form.backdes {
+    border-top: 0px !important;
+}
+h3.wtscustom_plgtitle {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    display: block;
+    /* padding-top: 21px; */
+    float: left;
+    width: 100%;margin-top:11px;
+}
+.row.bg {
+    
+    padding-top: 50px !important; padding-bottom: 80px !important;
+}
+label.col-sm-3 {
+    font-size: 12px;
+    padding-left: 0px; 
+}
+.input_boxp input[type=text] {
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 10px;
+    height: 35px;
+    width: 100%;
+}
+.wp-picker-container .wp-color-result.button {
+    height: 35px;
+    margin: 0 6px 6px 0;
+    padding: 0 0 0 30px;
+    font-size: 11px;
+    width: 110px;
+  
+}
+.wp-color-result-text {
+    padding: 5px 6px;
+}
+.urlme {
+  position:absolute;
+  left:-9999px
+}
+span.clurls {
+    font-size: 12px;
+    font-weight: bold;
+}
+.uplodbtn button {
+    background: #25af76 !important;
+    color: #fff !important;
+    width: 100% !important;
+    /* padding: 10px !important; */
+    border: 0px !important;
+    height: 35px !important;
+    line-height: 35px !important;
+    border: 0px !important;border-radius:0px !important;
+}
+input#wts_clp_settings_submit {
+    background: #25af76;
+    border: 0px;
+    margin: 0px auto;
+    display: block;
+    color: #ffff;
+    padding: 10px 40px;
+    font-size: 15px;
+}
+.sctnhdng:after {
+    display: table;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #000;
+    position: relative;
+    top: 4px;
+    /* right: 0px; */
+    /* text-align: right; */
+}
+.sctnhdng {
+    font-size: 14px;
+    font-weight: bold;
+    /* border: 1px solid #fff; */
+    font-family: Arial;
+    display: block;
+    /* background: #fff; */
+    /* padding: 10px; */
+    margin-bottom: 20px;
+    color: rgba(226,137,169,1);
+    /* border-bottom: 1px solid #ccc; */
+    /* max-width: 60%; */
+}
+.settings-preview-container {
+    background-size: cover !important;
+    background-position: center !important;
+}
+span.remember-user {
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+}
+span.forgot {
+    float: right; width: 50%;
+    font-size: 13px;
+    padding-top: 2px;
+}
+.col-sm-2.radio_boxp {
+    padding-left: 0px;
+}
+.radio_boxp input[type=radio] {
+    margin-top: -4px;
+}
+.rmleft {
+    padding-left: 5px;
+}
+.putmarginb {
+    margin-bottom: 30px;
+}
+.morespacetop {margin-top:40px;}
+
+.wts_clp_captcha_keys_container {
+	display:none;
+}
+
+.wts_clp_captcha_keys_container.active {
+	display:block;
+}
+.row.captchabox {
+    margin-bottom: 20px;
+}
+span.wts_clp_info {
+    display: table;
+    padding-left: 18px;
+    font-weight: normal;
+    font-size: 12px;
+}
+input[type=checkbox]:checked + label:before { content: "\f046";color :#25af76 !important} /* checked icon */
+/*  --------------Wordpress update control -----------*/
+.li_btns .en_dis_btns {
+    list-style: none;
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    letter-spacing: 1px;
+    background: #CCCCCC;
+	padding: 5px 7px;
+}
+
+.en_dis_btns.btn_active {
+    background: #25af76;
+    color: #FFF;
+    -webkit-appearance: inherit;
+}
