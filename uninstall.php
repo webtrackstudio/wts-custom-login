@@ -7,7 +7,7 @@
  * @author      webtrackstudio
  * @category    Core
  * @package     wts_clp/Uninstaller
- * @version     1.0.2
+ * @version     1.0.3
  */
 
 if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {

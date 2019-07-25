@@ -8,7 +8,7 @@
 * Text Domain: wts-custom-login
 * License:     GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
-* Version:     1.0.2
+* Version:     1.0.3
 */
 
 /*
@@ -52,7 +52,7 @@ if ( !class_exists( 'WTS_Custom_Login' ) ) {
 		*
 		* @var string
 		*/
-		public $version = '1.0.2';
+		public $version = '1.0.3';
 
 		/**
 		* The name of the plugin.
