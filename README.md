@@ -3,7 +3,7 @@ Contributors: WebTrackStudio
 Tags: custom, login, forms, redirects, member, guest, members, register, google captcha login
 Requires at least: 4.0
 Tested up to: 5.2.2
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 
 Quickly generate customized front-end login page with google captcha for a WordPress site. 
@@ -41,6 +41,9 @@ Please use WordPress support forum to ask any query.
 5. Theme 3 with google captcha
 
 == Changelog ==
+
+= 1.0.3 =
+* minor changes to fix updation issues.
 
 = 1.0.2 =
 * Removed skin effect after activating plugin from wp-admin, limited to only setting page
